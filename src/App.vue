@@ -12,6 +12,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted () {
+    window.clevertap.event.push("App Viewed")
   }
 }
 </script>
